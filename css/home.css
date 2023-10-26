@@ -1,0 +1,87 @@
+.headerSection{
+    background-color: #E6E6E6;
+    padding: 15px 0;
+}
+.headerSection .headerMenu img{
+    width: 34px;
+    height: auto;
+}
+.headerSection .headerMenu span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.headerSection .headerMenu .imgPrev{
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+.headerSection .headerMenu .imgPrev:hover{
+    cursor: pointer;
+}
+.menu ul{
+    display: block;
+    margin-bottom: 0px;
+    margin-right: 0;
+}
+.menu ul button li{
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu ul button li a{
+    text-decoration: none;
+}
+.menu ul button{
+    border: none;
+    border-right: 1px solid black;
+    margin-left: -3px;
+}
+.menu ul button:first-child{
+    border-left: 1px solid black;
+}
+.menu ul button:hover{
+    background-color: blue;
+    border: 1px solid transparent;
+    transition: all .6s ease-in-out;
+}
+.menu ul button:hover li a{
+    color: white;
+}
+.background{
+    background: url(../imagesAndLogo/photo-1553095066-5014bc7b7f2d.webp) no-repeat top center;
+    background-size: cover;
+    padding: 260px 0;
+    box-sizing: border-box;
+}
+.sliderParagraph h2{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.sliderParagraph button{
+    background-color: rgb(16, 16, 215);
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    margin-top: 60px;
+    padding: 6px 18px;
+    border-radius: 7px;
+}
+.sliderParagraph button a{
+    text-decoration: none;
+    color: white;
+}
+.sliderParagraph button:hover{
+    background: rgb(192, 192, 192);
+    border: 1px solid black;
+    transition: all .3s ease-in-out;
+}
+.footerSection{
+    background-color: #E6E6E6;
+}
+.footer h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}

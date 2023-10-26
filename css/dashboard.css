@@ -1,0 +1,160 @@
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.borderRight{
+    border-right: 1px solid black;
+}
+.borderBottom{
+    border-bottom: 1px solid black;
+}
+.borderTop{
+    border-top: 1px solid black;
+}
+.headerSection{
+    padding: 15px 0;
+    background: #E6E6E6;
+}
+.header .imagPrev img{
+    width: 34px;
+    height: auto;
+}
+.header .imagPrev span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.headerRight a img{
+    width: 36px;
+    height: auto;
+    margin: 0px 30px;
+}
+.profile{
+    display: inline-block;
+    margin-left: 60px;
+    background-color: rgb(208, 208, 208);
+    padding: 0px 6px;
+    border-radius: 40px;
+}
+.profile .a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.profile .arif{
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+}
+.profile a{
+    text-decoration: none;
+}
+.profile a h5{
+    display: inline-block;
+}
+.profile a img{
+    width: 30px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+.profile:hover{
+    background: white;
+    border: 1px solid blue;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.dashboardLeft{
+    background: #E6E6E6;
+    height: 860px;
+}
+.dashboardLeft .div0 h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.dashboardLeft .div0 a{
+    text-decoration: none;
+}
+.dashboardLeft .div1 a{
+    text-decoration: none;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
+.dashboardLeft .div1 a:hover{
+    border: 1px solid blue;
+    margin-left: 20px;
+    transition: all .3s ease-in-out;
+}
+.dashboardLeft .div1{
+    padding: 20px 0;
+}
+.dashboardLeft .div1 a img{
+    width: 25px;
+    height: auto;
+}
+.dashboardLeft .div1 a h4{
+    display: inline-block;
+}
+.col-9{
+    margin-left: -12px;
+}
+.tasklist h4{
+    padding-top: 40px;
+    font-size: 32px;
+    padding-bottom: 35px;
+}
+.taskMenu ul{
+    list-style: none;
+    display: block;
+}
+.taskMenu ul li{
+    background: white;
+    display: inline-block;
+    padding: 12px 43px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 500;
+    box-sizing: border-box;
+    
+}
+.taskMenu ul li a{
+    text-decoration: none;
+}
+.taskMenu ul li:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    background: #0d6efd;
+    transition: all .4s ease-in-out;
+    transform: translateY(10px);
+    
+}
+.taskMenu ul li:hover a{
+    color: white;
+    transition: all .4s ease-in-out;
+}
+.alltask ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+.alltask p{
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.alltask h6{
+    padding-top: 14px;
+}
+.footerSection{
+    background: #E6E6E6;
+}
+.footer h5{
+    margin-bottom: 0;
+    padding: 15px 0;
+}
